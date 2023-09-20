@@ -66,6 +66,6 @@ int main(int argc, char** argv) {
 		MFCCWapper(fileListString[i].c_str(), fileListString[i + 1].c_str(),mwts,config,ID);
 	}
 	MFCCWapperTempFree(&mwts,config);
-	//system("pause");
+	system("pause");
 	return 0;
 }
